@@ -17,6 +17,7 @@ public:
     }
 };
 
+
 /*--------------------------------------------------explanation--------------------------------------------
 
 First, we set the range of possible square roots. Since the square root of x cannot be larger than x itself, we start with a left pointer at 0 and a right pointer at x.
