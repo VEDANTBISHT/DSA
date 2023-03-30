@@ -32,3 +32,7 @@ public:
         return result->next;  // skip the dummy node and return the actual list
     }
 };
+
+/*We define a new class Solution and a member function mergeTwoLists that takes two pointers to ListNode objects l1 and l2 as input and returns a pointer to the merged list. We start by creating a dummy node result with a value of 0. This is done to simplify the merging process and to avoid having to check if result is null when appending nodes.
+
+We then create a pointer current to the current node in the result list and enter a while loop. We compare the values of the current nodes in l1 and l2 and append the smaller value to result. We continue this process until we reach the end of either l1 or l2. If one list ends before*/
