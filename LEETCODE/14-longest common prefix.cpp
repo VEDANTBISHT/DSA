@@ -15,3 +15,10 @@ public:
         return lcp;
     }
 };
+/*To solve this problem in C++, we can use the following algorithm:
+
+Initialize the longest common prefix (LCP) to the first string in the array.
+Iterate through the remaining strings in the array.
+For each string, iterate through its characters and compare them with the corresponding characters in the LCP.
+If there is a mismatch, update the LCP to be the substring up to the index of the mismatch.
+Return the LCP after iterating through all strings.*/
