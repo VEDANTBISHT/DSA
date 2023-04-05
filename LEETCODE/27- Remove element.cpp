@@ -21,7 +21,8 @@ complexity of the solution is O(1), since we only use two pointers and no additi
 
 
 
-/*-----------------------------------------------------------Optimized solution and explanation----------------------------------------
+/*-----------------------------------------------------------Optimized solution and 
+explanation----------------------------------------
 
 We start by initializing two pointers i and n to 0 and the length of the array, respectively. We iterate over the array using the 
 
