@@ -1,16 +1,4 @@
-class Solution {
-public:
-    int removeElement(vector<int>& nums, int val) {
-        int i = 0;
-        for(int j = 0; j < nums.size(); j++) {
-            if(nums[j] != val) {
-                nums[i] = nums[j];
-                i++;
-            }
-        }
-        return i;
-    }
-};
+
 /*We start by initializing two pointers i and j to 0. We iterate over the array using the fast-runner j, and if nums[j] is not equal 
 to val, we assign the value of nums[j] to nums[i] and increment i. This effectively removes all instances of val from the array.
 
