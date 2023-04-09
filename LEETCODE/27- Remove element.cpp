@@ -23,6 +23,7 @@ At the end of the iteration, we return the value of n, which is the new length o
 This solution has a time complexity of O(n), where n is the length of the array, since we iterate over the array only once. 
 The space complexity of the solution is O(1), since we only use two pointers and no additional data structures. The optimized solution 
 reduces the number of write operations performed on the input array and is therefore slightly faster than the original solution.-----------------------------------------------------*/
+
 class Solution {
 public:
     int removeElement(vector<int>& nums, int val) {
