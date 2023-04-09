@@ -30,10 +30,10 @@ the middle index using (low + high) / 2.
 
 We compare the value at the middle index with the target element. 
 If they are equal and the element at the previous index is less than the target element or the middle index is 0,
- we have found the first occurrence of the target element and we return the index. Otherwise, if the value at the
-  middle index is greater than or equal to the target element, we narrow our search to the left half of the array
-   by updating the high pointer. Similarly, if the value at the middle index is less than the target element, 
-   we narrow our search to the right half of the array by updating the low pointer.
+we have found the first occurrence of the target element and we return the index. Otherwise, if the value at the
+middle index is greater than or equal to the target element, we narrow our search to the left half of the array
+by updating the high pointer. Similarly, if the value at the middle index is less than the target element, 
+we narrow our search to the right half of the array by updating the low pointer.
 
 If we cannot find the target element in the array, we return -1.
 
