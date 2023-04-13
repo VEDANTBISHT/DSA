@@ -22,6 +22,7 @@ public:
         return -1;
     }
 ;
+
 /*----------------------------------------Explanation--------------------------------------------------------*/
 /*
 In this solution, we use a binary search algorithm to find the target element. We maintain two pointers: low, 
