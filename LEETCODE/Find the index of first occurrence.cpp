@@ -25,6 +25,7 @@ public:
 
 /*----------------------------------------Explanation--------------------------------------------------------*/
 /*
+
 In this solution, we use a binary search algorithm to find the target element. We maintain two pointers: low, 
 which points to the beginning of the array, and high, which points to the end of the array. We then calculate 
 the middle index using (low + high) / 2.
