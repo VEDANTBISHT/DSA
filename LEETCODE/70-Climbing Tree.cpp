@@ -23,8 +23,6 @@ public:
     }
 };
 
-
-
 /*solution 2 without runtime error
 */
 class Solution {
